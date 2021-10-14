@@ -1,5 +1,7 @@
 class Build {
-  Build (this.title, this.memo);
+  Build (this.id, this.title, this.memo);
+
+  String id;
   String title;
   String memo;
 }
